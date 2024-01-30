@@ -10,6 +10,8 @@ def load_data():
 
 def main():
     st.title("Hello World on Streamlit.io")
+    iris = load_data()
+    st.table(iris)
 
 if __name__ == "__main__":
     main()
